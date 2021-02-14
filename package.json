@@ -1,0 +1,34 @@
+{
+  "name": "11ty-CentroWeb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "OanhTran",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "cssnano": "^4.1.10",
+    "html-minifier": "^4.0.0",
+    "imagemin": "^7.0.1",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.1",
+    "imagemin-svgo": "^8.0.0",
+    "inline-source": "^7.2.0",
+    "postcss": "^8.2.4",
+    "postcss-advanced-variables": "^3.0.1",
+    "postcss-nested": "^5.0.3",
+    "postcss-scss": "^3.0.4",
+    "rollup": "^2.37.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "@polkadot/extension-dapp": "^0.36.1",
+    "@polkadot/util": "^5.3.1",
+    "@polkadot/util-crypto": "^5.3.1"
+  }
+}

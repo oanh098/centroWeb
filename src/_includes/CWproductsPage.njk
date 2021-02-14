@@ -1,0 +1,13 @@
+{% extends "CWbase.njk" %}
+{% block content %}
+
+   <section class="banner" id="home">
+   <nav>
+        {% navlist collections.all | eleventyNavigation, page, 2 %}
+   </nav>
+		<h1> {{title}} </h1>
+        {{ content | safe }}
+        {% include "partials/productList.njk" %}
+	</section>
+
+{% endblock %}

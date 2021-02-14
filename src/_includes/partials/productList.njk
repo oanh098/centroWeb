@@ -1,0 +1,13 @@
+{% if productsList %}
+<aside class="productList">
+    {%- for product in productList -%}
+       <product>
+            <h2>
+                <a href="{{ product.url }}">{{ product.data.title }}</a>
+            </h2>
+       </product>
+    {%- endfor -%}
+
+</aside>
+
+{% endif %}

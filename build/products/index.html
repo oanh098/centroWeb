@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Centro Web</title>
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+<!-- Header -->
+	<header id="header">
+		<a href="#" class="logo">Logo</a>
+		<div class="toggle" onclick="toggle()"></div>
+		<ul id="first" > <li><a href="/">HOME</a></li><li><a href="/about/">ABOUT</a></li><li><a href="/contactus/">Contact Us</a></li><li class="active" ><strong>PRODUCTS <strong> </li><li><a href="/articles/">articles</a></li></ul>
+		<!--ul id="first">
+			<li><a href="#home" onclick="toggle()">HOME</a></li>
+			<li><a href="#about" onclick="toggle()">ABOUT US</a></li>
+			<li><a href="#contact" onclick="toggle()">CONTACT US</a></li>
+		</ul--!>
+
+		<ul id="second">
+			<li><a href="#">Be</a></li>
+			<li><a href="#">YouTube</a></li>
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">Pinterest</a></li>
+		</ul>
+	</header>
+
+
+
+   <section class="banner" id="home">
+   <nav>
+        <ul id="first" > <li><a href="/">HOME</a></li><li><a href="/about/">ABOUT</a></li><li><a href="/contactus/">Contact Us</a></li><li class="active" ><strong>PRODUCTS <strong> </li><li><a href="/articles/">articles</a></li></ul>
+   </nav>
+		<h1> Product List </h1>
+        
+        
+	</section>
+
+
+
+<script type="module" src="/js/main.js"> </script>
+<script type="text/javascript">
+	window.addEventListener("scroll", function(){
+
+		var header = document.querySelector("header");
+		header.classList.toggle("sticky", window.scrollY >0);
+	})
+	function toggle(){
+		var header = document.querySelector("header");
+		header.classList.toggle("active");
+	}
+
+</script>
+</body>
+
+
+</html>

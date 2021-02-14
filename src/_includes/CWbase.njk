@@ -1,0 +1,8 @@
+{% include "partials/htmlhead.njk" %}
+{% include "partials/htmlheader.njk" %}
+
+{% block content %}
+    {{ content | safe }}
+{% endblock %}
+
+{% include "partials/htmlfoot.njk" %}
