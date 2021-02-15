@@ -267,8 +267,9 @@ p
 }
 .services .box .iconBx img
 {
-	max-width: 100px;
+	max-width: 200px;
 	margin-bottom: 15px;
+	display: cover;
 }
 .services .box h2
 {
